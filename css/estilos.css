@@ -93,7 +93,7 @@ nav ul{
 nav ul li{
     display: flex;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 nav ul li a{
@@ -257,6 +257,11 @@ header h1 p {
     align-items: center;
     flex-direction: row;
     padding-bottom: 20px;
+}
+
+#contatinho .telefone img{
+    align-items: center;
+    width: 150px;
 }
 
 #contatinho .telefone p a{
