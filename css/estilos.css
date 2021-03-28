@@ -11,7 +11,7 @@ h1 {
 header nav {
     display: flex;
     flex-direction: row;
-    background-color: black;  
+    background-color: black;
 }
 
 header nav h1 a {
@@ -62,23 +62,29 @@ ul.redes-sociais {
 } 
 
 nav {
-    background-color: black;
+    background-image: linear-gradient(to bottom, #449FA1, #000);
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px 20px;
+    padding: 0px 20px;
 }
 
-/* nav .arthur a{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} */
+nav p{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family: inherit;
+}
 
 nav a{
     text-align: center;
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: white;
+    color: #FFF;
     font-size: larger;
     font-family: inherit;
 }
@@ -200,6 +206,7 @@ header h1 p {
 
 
 #servicoz {
+    padding: 20px 0px;
     text-align: center;
 }
 
@@ -207,7 +214,9 @@ header h1 p {
     color: black;
 }
 
-
+#b{
+    width: 10%;
+}
 
 /* contato */
 
@@ -226,14 +235,14 @@ header h1 p {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    padding: 15px;
+    padding: 5px 15px;
 }
 
 #contatinho .whatsapp {
     flex-direction: row;
     align-items: center;
     text-align: center;     
-    padding: 15px;
+    padding: 5px 15px;
 } 
 
 #contatinho .instagram a, p{
@@ -309,17 +318,22 @@ footer p{
     background-color: black;
 }
 
-#agmenor {
-    position: absolute;
+/* #agmenor { 
+     position: absolute;
     align-items: center;
     text-align: center;
-}
+    bottom: 0;
+} */
 
 #agmenor .agmenor img {
     align-items: center;
     width: 5%;
 } 
 
+.agmenor img{
+    align-items: center;
+    width: 5%;
+}
 
 
 @media only screen and (max-width: 800px) {
@@ -374,8 +388,24 @@ footer p{
         color: black;
     }
 
+    #contatinho .instagram{
+        padding-top: 25px;
+    }
+
+    /* footer */
+
     #agmenor .agmenor img{
-        width: 20%;
+        width: 15%;
+    }
+
+    .agmenor img {
+        width: 15%;
+    }
+
+    #footer .agmenor img{
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
