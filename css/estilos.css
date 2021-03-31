@@ -4,6 +4,13 @@ body {
 
 h1 {
     text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #449FA1, #000);
+    color: #FFF;
+    padding: 5px 0px;
+}
+
+a{
+    color: #000;
 }
 
 /* HEADER */
@@ -162,7 +169,7 @@ header h1 p {
     text-align: center;
     flex-direction: row;
     align-items: center;
-    padding: 20px;
+    padding: 30px 0px;
 }
 
 #sobre h3 {
@@ -178,6 +185,21 @@ header h1 p {
 
 #sobre p{
     padding-bottom: 25px;
+    padding: 0px 20px 25px;
+}
+
+#sobre .qmsoueu {
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#sobre .qmsoueu .bottom {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
 }
 
 /* serviços */
@@ -206,16 +228,46 @@ header h1 p {
 
 
 #servicoz {
-    padding: 20px 0px;
+    padding: 10px 0px;
     text-align: center;
 }
 
-#servicoz a, p{
+#servicoz a p{
     color: black;
 }
 
 #b{
     width: 10%;
+}
+
+#ser-cont{
+    text-align: center;
+    padding: 20px 0px 10px;
+}
+
+#ser-cont .bottom {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: large;
+}
+
+#sobre-serv{
+    text-align: center;
+    padding: 0px;
+}
+
+#sobre-serv .bottom {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: large;
 }
 
 /* contato */
@@ -229,27 +281,28 @@ header h1 p {
     align-items: center;
     flex-direction: column;
     width: 100%;
+    padding-top: 10px;
 }
  
 #contatinho .instagram {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    padding: 5px 15px;
+    padding: 0px 15px;
 }
 
 #contatinho .whatsapp {
     flex-direction: row;
     align-items: center;
     text-align: center;     
-    padding: 5px 15px;
+    padding: 5px 5px;
 } 
 
-#contatinho .instagram a, p{
+#contatinho .instagram a p{
     color: black;
 }
 
-#contatinho .whatsapp a, p{
+#contatinho .whatsapp a p{
     /* text-decoration: none; */
     color: black;
 }
@@ -265,7 +318,6 @@ header h1 p {
     text-align: center;
     align-items: center;
     flex-direction: row;
-    padding-bottom: 20px;
 }
 
 #contatinho .telefone img{
@@ -283,6 +335,7 @@ header h1 p {
 }
 
 #botao{
+    margin-top: 30px;
     padding: 40px;
     text-align: center;
 }
@@ -317,13 +370,6 @@ footer p{
     color: white;
     background-color: black;
 }
-
-/* #agmenor { 
-     position: absolute;
-    align-items: center;
-    text-align: center;
-    bottom: 0;
-} */
 
 #agmenor .agmenor img {
     align-items: center;
@@ -377,6 +423,13 @@ footer p{
         flex-direction: column;
     }
 
+    /* sobre */
+
+    #sobre p{
+        padding-bottom: 25px;
+        padding: 0px 20px 25px;
+    }
+
     /* servicos */
 
     .bemzen p{
@@ -389,7 +442,7 @@ footer p{
     }
 
     #contatinho .instagram{
-        padding-top: 25px;
+        padding-top: 5px;
     }
 
     /* footer */
