@@ -4,9 +4,6 @@ body {
 
 h1 {
     text-transform: uppercase;
-    background-image: linear-gradient(to bottom, #449FA1, #000);
-    color: #FFF;
-    padding: 5px 0px;
 }
 
 a{
@@ -14,6 +11,20 @@ a{
 }
 
 /* HEADER */
+
+header #qmsoueu {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header #qmsoueu .bottom {
+    background-color: #000;
+    color: #fff;
+    /* border-radius: 10px; */
+    padding: 5px;
+    font-weight: bold;
+}
 
 header nav {
     display: flex;
@@ -142,19 +153,6 @@ ul {
     align-items: center;
 }
 
-
-
-header h1{
-    text-align: center;
-    align-items: center;
-    text-decoration: none;
-}
-
-header h1 p {
-    align-items: center;
-    text-align: center;
-}
-
 .botao{
     color: white;
     text-decoration: none;
@@ -169,37 +167,15 @@ header h1 p {
     text-align: center;
     flex-direction: row;
     align-items: center;
-    padding: 30px 0px;
+    padding: 10px 0px;
+    /* width: 33%; */
 }
 
-#sobre h3 {
-    align-items: center;
+#sobre .sobremim2, .sobremim p{
     text-align: center;
-}
-
-#sobre h3 p{
     align-items: center;
-    text-align: center;
     flex-direction: row;
-}
-
-#sobre p{
-    padding-bottom: 25px;
-    padding: 0px 20px 25px;
-}
-
-#sobre .qmsoueu {
-    text-align: center;
-    align-items: center;
-    padding: 30px;
-}
-
-#sobre .qmsoueu .bottom {
-    background-color: #000;
-    color: #fff;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
+    padding: 0px 400px 25px;
 }
 
 /* serviços */
@@ -209,23 +185,13 @@ header h1 p {
     padding: 20px;
 }
 
-#servicos h2{
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
-}
+
 
 #servicos h2 p{
     align-items: center;
     text-align: center;
     flex-direction: row;
 }
-
-#servicos .text1, .text2, .text3, .text4 {
-    text-align: center;
-    align-items: center;
-}
-
 
 #servicoz {
     padding: 10px 0px;
@@ -249,7 +215,7 @@ header h1 p {
     font-weight: bold;
     background-color: #000;
     color: #fff;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-decoration: none;
     padding: 5px 20px;
     font-size: large;
@@ -264,18 +230,17 @@ header h1 p {
     font-weight: bold;
     background-color: #000;
     color: #fff;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-decoration: none;
     padding: 5px 20px;
     font-size: large;
 }
 
-/* contato */
-
-#contato .paragrafo {
-    align-items: center;
-    text-align: center;
+#trab {
+    padding-bottom: 20px;
 }
+
+/* contato */
 
 #contatinho {
     align-items: center;
@@ -360,17 +325,6 @@ footer {
     padding: 15px 0px;
 }
 
-#footer {
-    bottom: 0px;
-    position: absolute;
-    width: 100%;
-}
-
-footer p{
-    color: white;
-    background-color: black;
-}
-
 #agmenor .agmenor img {
     align-items: center;
     width: 5%;
@@ -425,12 +379,30 @@ footer p{
 
     /* sobre */
 
-    #sobre p{
-        padding-bottom: 25px;
-        padding: 0px 20px 25px;
+    #sobre {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px 0px;
+    }
+    
+    #sobre .sobremim2, .sobremim p{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 0px 0px 25px;
     }
 
+    /* #sobre p{
+        padding-bottom: 25px;
+        padding: 0px 20px 25px;
+    } */
+
     /* servicos */
+
+    .bemzen {
+        padding-top: 40px;
+    }
 
     .bemzen p{
         padding: 0px 30px;
@@ -453,12 +425,6 @@ footer p{
 
     .agmenor img {
         width: 15%;
-    }
-
-    #footer .agmenor img{
-        text-align: center;
-        align-items: center;
-        flex-direction: column;
     }
 }
 
