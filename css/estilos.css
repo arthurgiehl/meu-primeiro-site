@@ -15,15 +15,25 @@ a{
 header #qmsoueu {
     text-align: center;
     align-items: center;
-    padding: 20px;
+    padding-top: 20px;
+}
+
+header #qmsoueu .qmsoueubotao {
+    padding-bottom: 15px;
 }
 
 header #qmsoueu .bottom {
     background-color: #000;
     color: #fff;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     padding: 5px;
     font-weight: bold;
+}
+
+header #qmsoueu .fotoperfil {
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
 }
 
 header nav {
@@ -36,10 +46,6 @@ header nav h1 a {
     text-decoration: none;
     text-align: center;
 }
-
-/* a:visited{
-    color: #449fa1;
-} */
 
 ul.menu,
 ul.redes-sociais {
@@ -133,21 +139,16 @@ ul {
     list-style: none;
 }
 
-
 /* navegacao */
 
-#logo{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+ #logo{
     background-color: black;
     padding: 70px 0px;  
-}
+} 
 
 #logo .logo {
     display: flex;
     flex-direction: column;
-    /* padding: 20px 740px 170px; */
     height: 10%;
     background-color: black;
     align-items: center;
@@ -164,18 +165,26 @@ ul {
 /* sobre */
 
 #sobre {
-    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
-    align-items: center;
-    padding: 10px 0px;
-    /* width: 33%; */
+    margin: 0px auto;
+    justify-content: space-around;
 }
 
-#sobre .sobremim2, .sobremim p{
+#sobre .sobremim {
+    display: flex;
+    width: 30%;
     text-align: center;
-    align-items: center;
-    flex-direction: row;
-    padding: 0px 400px 25px;
+    flex-direction: column;
+}
+
+#sobre .sobremim2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 30%;
 }
 
 /* serviços */
@@ -215,7 +224,7 @@ ul {
     font-weight: bold;
     background-color: #000;
     color: #fff;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     text-decoration: none;
     padding: 5px 20px;
     font-size: large;
@@ -230,7 +239,7 @@ ul {
     font-weight: bold;
     background-color: #000;
     color: #fff;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     text-decoration: none;
     padding: 5px 20px;
     font-size: large;
@@ -268,7 +277,6 @@ ul {
 }
 
 #contatinho .whatsapp a p{
-    /* text-decoration: none; */
     color: black;
 }
 
@@ -335,6 +343,20 @@ footer {
     width: 5%;
 }
 
+/* mensagem */
+
+#form {
+    padding-right: 70px;
+    text-align: center;
+    align-items: center;
+}
+
+#form .send-clear {
+    align-items: center;
+    text-align: center;
+    padding-left: 60px;
+}
+
 
 @media only screen and (max-width: 800px) {
 
@@ -352,8 +374,6 @@ footer {
     ul.menu, ul.redes-sociais{
         display: flex;
         flex-direction: column;
-        /* padding-inline-start: 0px; */
-
     }
     ul.redes-sociais {
         position: relative;
@@ -383,7 +403,7 @@ footer {
         text-align: center;
         flex-direction: column;
         align-items: center;
-        padding: 30px 0px 0px;
+        padding: 0px 10px 0px;
     }
     
     #sobre .sobremim2, .sobremim p{
@@ -392,13 +412,6 @@ footer {
         flex-direction: column;
         padding: 0px 0px 25px;
     }
-
-    /* #sobre p{
-        padding-bottom: 25px;
-        padding: 0px 20px 25px;
-    } */
-
-    /* servicos */
 
     .bemzen {
         padding-top: 40px;
