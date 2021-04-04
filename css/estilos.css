@@ -12,17 +12,17 @@ a{
 
 /* HEADER */
 
-header #qmsoueu {
+header #apresentacao {
     text-align: center;
     align-items: center;
     padding-top: 20px;
 }
 
-header #qmsoueu .qmsoueubotao {
+header #apresentacao .qmsoueubotao {
     padding-bottom: 15px;
 }
 
-header #qmsoueu .bottom {
+header #apresentacao .bottom {
     background-color: #000;
     color: #fff;
     border-radius: 10px;
@@ -215,12 +215,12 @@ ul {
     width: 10%;
 }
 
-#ser-cont{
+#contato{
     text-align: center;
     padding: 20px 0px 10px;
 }
 
-#ser-cont .bottom {
+#contato .bottom {
     font-weight: bold;
     background-color: #000;
     color: #fff;
@@ -245,7 +245,7 @@ ul {
     font-size: large;
 }
 
-#trab {
+#servicos {
     padding-bottom: 20px;
 }
 
@@ -346,15 +346,16 @@ footer {
 /* mensagem */
 
 #form {
-    padding-right: 70px;
-    text-align: center;
+    align-items: center;
+}
+
+#form .formsla {
     align-items: center;
 }
 
 #form .send-clear {
     align-items: center;
     text-align: center;
-    padding-left: 60px;
 }
 
 
@@ -371,23 +372,10 @@ footer {
         padding-left: 0px;
     }
 
-    ul.menu, ul.redes-sociais{
-        display: flex;
-        flex-direction: column;
-    }
-    ul.redes-sociais {
+     ul.redes-sociais {
         position: relative;
         flex-direction: row;
-        align-items: center;
-        flex-wrap: nowrap;
-        justify-content: center;
-    }
-    ul.menu{
-        align-items: center;
-    }
-    ul.menu li a{
-        font-size: 20px;
-    }
+    } 
 
     nav{
         flex-direction: column;
@@ -400,17 +388,15 @@ footer {
     /* sobre */
 
     #sobre {
-        text-align: center;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px 10px 0px;
+        width: 100%;
     }
     
-    #sobre .sobremim2, .sobremim p{
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-        padding: 0px 0px 25px;
+    #sobre .sobremim {
+        width: 40%;
+    }
+    
+    #sobre .sobremim2 {
+        width: 40%;
     }
 
     .bemzen {
@@ -440,19 +426,5 @@ footer {
         width: 15%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
