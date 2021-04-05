@@ -388,6 +388,9 @@ footer {
     /* sobre */
 
     #sobre {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
     
@@ -425,6 +428,8 @@ footer {
     .agmenor img {
         width: 15%;
     }
+
 }
 
 
+  
